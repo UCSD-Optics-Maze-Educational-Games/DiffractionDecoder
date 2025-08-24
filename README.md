@@ -107,13 +107,13 @@ Students develop both scientific understanding and technical skills while engagi
 
 ## Project Contributors
 
-### [Jordon Warf](https://www.linkedin.com/in/jordonwarf)
+### [Jordon Warf ↗](https://www.linkedin.com/in/jordonwarf)
 - **Original Game Design**: Conceptualized educational diffraction-based puzzle game combining optics and interactive learning
 - **Hardware Fabrication**: Designed and constructed physical game board with sliding puzzle mechanism and optical components
 - **Core Programming**: Developed foundational embedded systems code for keypad input, LCD display, and game logic
 - **Optical Integration**: Integrated and calibrated laser pointer, diffraction lens, and optical measurement systems
 
-### [Nick Ji](nickjiee.github.io)
+### [Nick Ji ↗](nickjiee.github.io)
 - **WiFi Connectivity Implementation**: Modified code to add robust WiFi connection management with automatic reconnection capabilities
 - **Google Sheets Integration**: Developed HTTP client functionality to send game completion status to Google Sheets via Apps Script for real-time progress tracking
 - **Dynamic Game Management**: Implemented system to retrieve and display next game information from Google Sheets database on LCD screen
