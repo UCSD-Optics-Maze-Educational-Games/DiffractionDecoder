@@ -2,7 +2,7 @@
 
 ## Purpose & Educational Goals
 
-The Diffraction Decoder Game is an interactive educational tool designed to teach students fundamental concepts in optics, specifically **diffraction phenomena**. By combining hands-on puzzle-solving with real optical physics, this game makes abstract scientific concepts tangible and engaging.
+**Diffraction Decoder** is an interactive educational tool designed to teach students fundamental concepts in optics, specifically **diffraction phenomena**. By combining hands-on puzzle-solving with real optical physics, this game makes abstract scientific concepts tangible and engaging.
 
 Students learn about:
 - Light diffraction through various apertures and gratings
