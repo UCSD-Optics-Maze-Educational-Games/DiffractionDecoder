@@ -5,8 +5,8 @@
 **Diffraction Decoder** is an interactive educational game designed to teach students fundamental concepts in optics, specifically **diffraction phenomena**. By combining hands-on puzzle-solving with optics, this game makes abstract scientific concepts tangible and engaging.
 
 Students learn about:
-- Light diffraction through various apertures and gratings
-- The relationship between wavelength, aperture size, and diffraction patterns
+- Light diffraction through a grating
+- The relationship between wavelength, aperture direction, and diffraction patterns
 - Spatial reasoning and problem-solving skills
 - Pattern recognition and scientific observation
 
