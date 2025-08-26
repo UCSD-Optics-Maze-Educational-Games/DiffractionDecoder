@@ -6,25 +6,25 @@
 
 Students learn about:
 - Light diffraction through a grating
-- The relationship between wavelength, aperture direction, and diffraction patterns
+- The relationship between wavelength, grating direction, and diffraction patterns
 - Spatial reasoning and problem-solving skills
 - Pattern recognition and scientific observation
 
 ## Introduction
 
-This project transforms traditional optics education into an immersive, game-based learning experience. Players must solve a physical sliding puzzle, then use their understanding of light diffraction to decode a secret password. The game bridges the gap between theoretical physics knowledge and practical application, making learning both fun and memorable.
+This project transforms traditional optics education into an immersive, game-based learning experience. Players must solve a sliding puzzle to obtain the hints for operating the game module, then use their understanding of light diffraction to decode a secret password. The game bridges the gap between theoretical physics knowledge and practical application, making learning both fun and memorable.
 
 ## How to Play
 
 ### Step 1: Solve the Sliding Puzzle
 - The game board features **9 box slots with only 8 slides**
-- Slide the pieces around to reveal numbers corresponding to different colors
-- Each color-number combination represents a diffraction configuration
+- Slide the pieces around to reveal numbers and arrows corresponding to different colors
+- The color-number-arrow combinations represent the diffraction grating orientations for different laser wavelengths
 
 ### Step 2: Laser Diffraction Analysis
-- Rotate the game machine to access different numbered positions
-- Shine a laser pointer through the diffraction lens at each numbered position
-- Observe where the light is diffracted and the resulting pattern
+- Rotate the diffraction grating mount to adjust the direction of the grating
+- Shine a laser light through the diffraction grating
+- Observe where the light is diffracted to and the resulting pattern
 - The diffraction patterns reveal the digits of the secret password
 
 ### Step 3: Enter the Password
@@ -86,8 +86,8 @@ Physical Game Board → ESP32 Microcontroller → LCD/Keypad Interface
 1. Connect LCD display to ESP32 pins (ex. 22, 23, 21, 19, 18, 5)
 2. Wire keypad matrix to pins (ex. 27, 14, 12 for columns; 32, 33, 25, 26 for rows)
 3. Connect buzzer to pin 13 (or any GPIO pin)
-4. Assemble physical sliding puzzle board
-5. Install diffraction lens and laser pointer mechanism
+4. Assemble the physical sliding puzzle board
+5. Install the diffraction grating and laser pointer module
 
 ### Software Configuration
 1. Upload the provided Arduino sketch to ESP32
@@ -109,15 +109,15 @@ Students develop both scientific understanding and technical skills while engagi
 
 ### [Jordon Warf ↗](https://www.linkedin.com/in/jordonwarf)
 - **Original Game Design**: Conceptualized educational diffraction-based puzzle game combining optics and interactive learning
-- **Hardware Fabrication**: Designed and constructed physical game board with sliding puzzle mechanism and optical components
+- **Hardware Fabrication**: Designed and constructed a physical game module with a sliding puzzle mechanism and optical components
 - **Core Programming**: Developed foundational embedded systems code for keypad input, LCD display, and game logic
 - **Optical Integration**: Integrated and calibrated laser pointer, diffraction lens, and optical measurement systems
 
 ### [Nick Ji ↗](nickjiee.github.io)
 - **WiFi Connectivity Implementation**: Modified code to add robust WiFi connection management with automatic reconnection capabilities
 - **Google Sheets Integration**: Developed HTTP client functionality to send game completion status to Google Sheets via Apps Script for real-time progress tracking
-- **Dynamic Game Management**: Implemented system to retrieve and display next game information from Google Sheets database on LCD screen
-- **Testing & Maintenance**: Verified and maintained game functionalities and presented game at outreach events.
+- **Dynamic Game Management**: Implemented a system to retrieve and display next game information from the Google Sheets database on the LCD screen
+- **Testing & Maintenance**: Verified and maintained game functionalities and presented the game at outreach events.
 - **Documentation**: Authored this comprehensive README and technical specification
 
 ## License
